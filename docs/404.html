@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PRS</title>
+  <base href="https://karenqian.github.io/prs/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./assets/nus-identity/images/nuslogo.ico">
+  <!-- <script src="./assets/js/script.js"></script> -->
+
+<link rel="stylesheet" href="styles.249301ffb60ad015358a.css"></head>
+
+<body>
+    <div class="container">
+  
+      <header class="nus-header">
+        <div class="container container-large">
+          <div class="row">
+            <div class="col-md-8 nus-logo clearfix">
+  
+              <a class="navbar-brand" href="http://www.nus.edu.sg">
+                <img alt="NUS" src="./assets/nus-identity/images/logo.png">
+              </a>
+  
+            </div>
+  
+            <div class="col-md-4 hidden-xs hidden-sm">
+  
+            </div>
+  
+            <div class="nus-mobile-nav hidden-lg hidden-md">
+              <ul>
+  
+              </ul>
+            </div>
+  
+            <div class="clearfix"></div>
+  
+          </div>
+        </div>
+      </header>
+  
+      <div class="inner-content">
+        <app-root></app-root>
+      </div>
+  
+      <footer class="nus-footer">
+  
+        <div class="copyright">
+          <div class="container container-large">
+            <div >
+              <div class="info">© <a href="http://www.nus.edu.sg/">National University of Singapore</a>. All Rights
+                Reserved.</div>
+              
+            </div>
+            <div>
+                <ul class="nav-copyright">
+                  <li><a href="http://www.nus.edu.sg/legal-information-notices">Legal</a></li>
+                  <li class="bullet"><a href="#">Branding guidelines</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+  
+      </footer>
+    </div>
+  <script type="text/javascript" src="runtime.a5dd35324ddfd942bef1.js"></script><script type="text/javascript" src="es2015-polyfills.4a4cfea0ce682043f4e9.js" nomodule></script><script type="text/javascript" src="polyfills.407a467dedb63cfdd103.js"></script><script type="text/javascript" src="main.f32fe16261fd7fda108c.js"></script></body>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    
+    <!--Used in proxysearch to enable/disable start/end date-->
+    <script language="JavaScript">
+        
+        
+        function enable_text01(status)
+        {
+          if (status == true) {
+          $('#startdate01').hide();
+          $('#enddate01').hide();
+          }
+          else { 
+          $('#startdate01').show();
+          $('#enddate01').show();
+          }
+        }
+        
+        function enable_text02(status)
+        {
+          if (status == true) {
+          $('#startdate02').hide();
+          $('#enddate02').hide();
+          }
+          else { 
+          $('#startdate02').show();
+          $('#enddate02').show();
+          }
+        }
+  
+        //Used to add up count of items in shopping cart
+  
+        function count_item()
+        {
+          var old = $('#itemcount').val();
+          $('#itemcount').val(parseFloat(old) + 1);
+  
+        }
+  
+        //Used to manage useradmin page show and hide
+        // function switch_role()
+        // {
+        //   var old = $('#ua_role').val();
+  
+        //   $('#facultyRow').hide();
+        //   $('#departmentRow').hide();
+        //   $('#regForm').hide();
+        //   $('#procForm').hide();
+        //   $('#qaaForm').hide();
+  
+        //   //1 - NUS Admin
+        //   //2 - Faculty Admin
+        //   if ("2"==old) {
+        //     $('#facultyRow').show();
+        //   }
+        //   //3 - Department Admin
+        //   else if ("3"==old) {
+        //     $('#facultyRow').show();
+        //     $('#departmentRow').show();
+        //   }
+        //   else if ("4"==old) {
+        //     $('#facultyRow').show(); 
+        //     $('#departmentRow').show();
+        //     $('#regForm').show();
+        //   }
+
+        //   else if ("5"==old) $('#procForm').show();
+        //   else if ("6"==old) $('#qaaForm').show();
+  
+        // }
+        
+    </script>
+  
+  </html>
