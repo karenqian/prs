@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Home</title>
+		<link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" href="css/styleguide.css" type="text/css" />
+		<link rel="stylesheet" href="css/template.css" type="text/css" />
+		
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/jquery.tap.min.js" type="text/javascript"></script>
+		<script src="js/offcanvas.js" type="text/javascript"></script>
+		<script src="js/common.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		
+		<!-- MENU FOR MOBILE - OFF CANVAS - START -->
+		<div id="nus-sidebar-off-canvas" class="nus-sidebar-off-canvas hidden-lg hidden-md off-canvas-effect-4 off-canvas-right">
+			<div class="header">
+				<h2>Sidebar</h2>
+				<button type="button" class="close" >×</button>
+			</div>
+			<div class="body">
+				<div class="nus-module module_menu">
+					<div class="module-inner">
+						<h3 class="title "><span>Main Menu</span></h3>
+						<div class="module-ct">
+							<ul class="nav nav-pills nav-stacked ">
+								<li class="item-101 current active"><a href="default.html">Menu 1</a></li>
+								<li class="item-113">
+									<a href="#">Menu 2</a>
+									<ul class="nav level2">
+										<li>
+											<a href="#">Menu 2.1</a>
+											<ul class="nav level3">
+												<li><a href="#">Menu 2.1.1</a></li>
+												<li>
+													<a href="#">Menu 2.1.2</a>
+													<ul class="nav level4">
+														<li><a href="#">Menu 2.1.2.1</a></li>
+														<li><a href="#">Menu 2.1.2.2</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">Menu 2.2</a>
+											<ul class="nav level3">
+												<li><a href="#">Menu 2.2.1</a></li>
+												<li><a href="#">Menu 2.2.2</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Menu 2.3</a></li>
+										<li><a href="#">Menu 2.4</a></li>
+									</ul>
+								</li>
+								<li class="item-114"><a href="#">Menu 3</a></li>
+								<li class="item-115"><a href="#">Menu 4</a></li>
+								<li class="item-116"><a href="#">Menu 5</a></li>
+								<li class="item-117"><a href="#">Menu 6</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- MENU FOR MOBILE - OFF CANVAS - END -->
+		
+		
+		<div class="nus-body-container">
+			
+			
+			<div class="nus-wrapper">
+				
+				
+				<!-- HEADER -->
+				<header class="nus-header"><!-- set 'microsite' to get #eee background. Otherwise, remove it to get #fff background -->
+					<div class="container">
+						<div class="row">
+							
+							<!-- LOGO SECTION - START -->
+							<div class="col-md-8 nus-logo clearfix">							
+								
+								<!-- NUS LOGO -->
+								<a class="navbar-brand" href="http://www.nus.edu.sg">
+									<img src="images/logo.png" alt="NUS" />
+								</a>
+								
+								<!-- BORDER , .nus-dcnm (set own height and margin border CSS in template.css -->
+								<div class="nus-faculty-border nus-dcnm">&nbsp;</div>
+								
+							
+								<!-- FACULTY SUB-LOGO -->
+								<div class="nus-faculty-logo hidden-sm hidden-xs">
+									<a href="http://www.nus.edu.sg"><img src="images/sublogo.png" alt="SubLogo" /></a>
+								</div>
+								
+							</div>
+							<!-- LOGO SECTION - END -->
+							
+							
+							<div class="col-md-4 hidden-xs hidden-sm">
+								<!-- QUICKLINKS -->
+								<div class="nus-quicklinks">
+									<ul class="box nav nav-pills">
+										<li><a href="#">Menu 1</a></li>
+										<li><a href="#">Menu 2</a></li>
+										<li><a href="#">Menu 3</a></li>
+										<li><a href="#">Menu 4</a></li>
+									</ul>
+								</div>
+								<!-- //QUICKLINKS -->
+							</div>
+							
+							<div class="nus-mobile-nav hidden-lg hidden-md">
+								<ul>
+									<li><a class="faicon fa-search collapsed" data-toggle="collapse" data-target="#search-collapse" href="javascript:void(0)">&nbsp;</a></li>
+									<li><a class="faicon fa-mobile-menu btn-toggle off-canvas-toggle" data-pos="right" data-effect="off-canvas-effect-4" data-nav="#nus-sidebar-off-canvas" href="javascript:void(0)">&nbsp;</a></li>
+								</ul> 
+							</div>
+							
+							<div class="clearfix"></div>
+							
+						</div>
+					</div>
+				</header>
+				<!-- //HEADER -->
+				
+				
+				
+				<!-- MAIN NAVIGATION -->
+				<nav class="navbar navbar-default nus-main-nav hidden-xs hidden-sm">
+					<div class="container clearfix">
+						
+						
+						<!-- MAIN MENU - NUS - START -->
+						<div class="nus-megamenu hidden-sm hidden-xs">
+							<ul class="nav navbar-nav level0">
+								<li class="current active" >
+									<a class="" href="default.html" data-target="#">Menu 1</a>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown" data-target="#">Menu 2<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li class="dropdown dropdown-submenu">
+											<a class="dropdown-toggle" href="#" data-toggle="dropdown" data-target="#">Menu 2.1</a>
+											<ul class="dropdown-menu">
+												<li><a href="#">Menu 2.1.1</a></li>
+												<li class="dropdown">
+													<a class="dropdown-toggle" href="#" data-toggle="dropdown" data-target="#">Menu 2.1.2</a>
+													<ul class="dropdown-menu">
+														<li><a href="#">Menu 2.1.2.1</a></li>
+														<li><a href="#">Menu 2.1.2.2</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li class="dropdown dropdown-submenu">
+											<a class="dropdown-toggle" href="#" data-toggle="dropdown" data-target="#">Menu 2.2</a>
+											<ul class="dropdown-menu">
+												<li><a href="#">Menu 2.2.1</a></li>
+												<li><a href="#">Menu 2.2.2</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Menu 2.3</a></li>
+										<li><a href="#">Menu 2.4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown">Menu 3<b class="caret"></b></a>
+									<ul class="dropdown-menu mega-menu">
+										<li class="mega-menu-column">
+											<div class="nav-header">Mega Heading 3.1</div>
+											<ul>
+												
+												<li><a href="#">Menu 3.1.1</a></li>
+												<li><a href="#">Menu 3.1.2</a></li>
+												<li><a href="#">Menu 3.1.3</a></li>
+											</ul>
+										</li>    
+										
+										<li class="mega-menu-column">
+											<div class="nav-header">Mega Heading 3.2</div>
+											<ul>
+												<li><a href="#">Menu 3.2.1</a></li>
+												<li><a href="#">Menu 3.2.2</a></li>
+												<li><a href="#">Menu 3.2.3</a></li>
+											</ul>
+										</li> 
+										
+									</ul>
+								</li>
+								<li data-id="115" data-level="1"><a class="" href="#" data-target="#">Menu 4</a></li>
+								<li data-id="116" data-level="1"><a class="" href="#" data-target="#">Menu 5</a></li>
+								<li data-id="117" data-level="1"><a class="" href="#" data-target="#">Menu 6</a></li>
+							</ul>
+						</div>
+						<!-- MAIN MENU - NUS - END -->
+						
+						
+						<!-- SEARCH BUTTON ICON - START -->
+						<div class="search-btn-box hidden-sm hidden-xs">
+							<a class="faicon fa-search collapsed" data-toggle="collapse" data-target="#search-collapse" href="#">&nbsp;</a>
+						</div>
+						<!-- SEARCH BUTTON ICON - END -->
+						
+						
+					</div>
+					
+					
+				</nav>
+				<!-- //MAIN NAVIGATION -->
+				
+				
+				
+				
+				<!-- NUS SEARCH - START  (Must be Toggled from SEARCH BUTTON ICON)-->
+				<div id="search-collapse" class="nus-search-box collapse">
+					<div class="container">
+						<div class="search">
+							<form action="https://www.google.com/search" method="get" class="form-inline form-search">
+								<div class="icon faicon fa-search"></div>
+								<input name="q" id="mod-search-searchword" class="form-control input-lg" type="text" placeholder="Search...">
+								<input type="hidden" name="domains" value="nus.edu.sg" />
+								<input type="hidden" name="sitesearch" value="nus.edu.sg" />
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- NUS SEARCH - ENDS -->
+				
+				<!-- COMPONENTS CONTENT - START -->
+				<div class="container nus-components item-page2">
+				</div>
+				
+			</div>
+			<!-- NUS WRAPPER -->
+			
+		</div>
+		<!-- NUS BODY CONTAINER -->
+		
+	</body>
+</html>																																																																																																																													

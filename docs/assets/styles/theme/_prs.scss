@@ -1,0 +1,80 @@
+// Content min height.
+@media (min-width: $screen-sm-min) {
+  #prs-content-container {
+    min-height: 500px;
+  }
+}
+
+.form-horizontal {
+  .control-label {
+    text-align: left !important;
+  }
+}
+
+.prs-label {
+  &::after {
+    content: " :";
+  }
+  .mandatory {
+    &::after {
+      content: "*";
+      color: #FF0000;
+      font-weight: bold;
+    }
+  }
+}
+th {
+  .mandatory {
+    &::after {
+      content: "*";
+      color: #FF0000;
+      font-weight: bold;
+    }
+  }
+}
+.mandatory {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.pagination {
+  > li {
+    > input {
+      position: relative;
+      float: left; // Collapse white-space
+      padding: $padding-base-vertical $padding-base-horizontal;
+      line-height: $line-height-base;
+      text-decoration: none;
+      color: $pagination-active-color;
+      background-color: $pagination-active-bg;
+      border: 1px solid $pagination-active-border;
+      margin-left: -1px;
+      height: inherit;
+      font-size: inherit;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      min-width: 3em;
+      text-align: center;
+    }
+  }
+}
+
+// For simple chart.
+.simple-chart-bar {
+  fill: $brand-primary;
+}
+
+.simple-chart-bar:hover {
+  fill: $brand-danger;
+}
+
+
+/* Fixes */
+//.form-control {
+//  border-radius: 4px !important;
+//}
+//
+//.input-group {
+//
+//}
